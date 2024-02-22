@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table, tr,th, td{
+            border: 2px solid rgb(25, 22, 22);
+            border-collapse: collapse;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <table>
+
+        <colgroup>
+        <col span="" style="background-color: rgb(180, 118, 134);">
+        <col span="" style="background-color: rgb(230, 226, 227);">
+        <col span="" style="background-color: rgb(108, 189, 229);">
+        <col span="" style="background-color: rgb(65, 62, 130);">
+        <col span="" style="background-color: rgb(94, 135, 112);">
+        <col span="" style="background-color: rgb(144, 138, 139);">
+
+        </colgroup>
+ 
+    <tr>
+        <th colspan="6">time Table</th>
+        <!-- <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td> -->
+    </tr>
+    <tr>
+        <th rowspan="6"> Hours</th>
+        <th>Mon</th>
+        <th>Tue</th>
+        <th>Wed</th>
+        <th>Thu</th>
+        <th>fri</th>
+    </tr>
+    <tr>
+        <td>Science</td>
+        <td>Maths</td>
+        <td>Science</td>
+        <td>Maths</td>
+        <td>Arts</td>
+    </tr>
+    <tr>
+        <td>Social</td>
+        <td>History</td>
+        <td>English</td>
+        <td>Social</td>
+        <td>Sports</td>
+    </tr>
+    <tr>
+        <td colspan="5">Lunch</td>
+    </tr>
+    <tr>
+        <td>Science</td>
+        <td>Maths</td>
+        <td>Science</td>
+        <td>Maths</td>
+        <td rowspan="2">Sports</td>
+    </tr>
+    <tr>
+        <td>Social</td>
+        <td>History</td>
+        <td>English</td>
+        <td>Social</td>
+    </tr>
+
+</table>
+</body>
+</html>
